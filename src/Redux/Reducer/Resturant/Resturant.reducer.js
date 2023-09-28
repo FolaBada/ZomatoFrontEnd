@@ -1,4 +1,4 @@
-import { GET_RESTURSNT } from "./Resturant.type";
+import { GET_RESTURANT } from "./Resturant.type";
 
 const INITIAL_STATE = {
     resturants: []
@@ -6,7 +6,7 @@ const INITIAL_STATE = {
 
 const resturantReducer = (state = INITIAL_STATE, action) => {
     switch(action.type) {
-        case GET_RESTURSNT:
+        case GET_RESTURANT:
             return {
                 ...state,
                 resturants: action.payload

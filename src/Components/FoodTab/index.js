@@ -33,7 +33,7 @@ const MobileTab = () => {
 
     return (
         <>
-            <div className="lg:hidden bg-white p-3 fixed bottom-0 z-10 w-full flex items-center justify-between border text-gray-500">
+            <div className="md:hidden bg-white p-3 fixed bottom-0 z-10 w-full flex items-center justify-between border text-gray-500">
                {
                 allTypes.map((items) => (
                    <Link to = {`/${items.id}`}>
@@ -59,7 +59,8 @@ const MobileTab = () => {
             </div>
         </>
     );
-};
+}
+
 const FoodTab =  () => {
     return (
         <>

@@ -1,1 +1,1 @@
-export const GET_RESTURSNT = "GET_RESTURANT";
+export const GET_RESTURANT = "GET_RESTURANT";
