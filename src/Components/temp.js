@@ -35,7 +35,7 @@ const Temp = () => {
 
 
     return (
-        <>
+        
              <div className="hidden bg-white p-3 w-2/4 flex items-center justify-between text-gray-500 md:flex">
                {
                 allTypes.map((items) => (
@@ -60,8 +60,7 @@ const Temp = () => {
                 ))
                }
             </div>
-        </>
     )
   
-}
+};
 export default Temp;
