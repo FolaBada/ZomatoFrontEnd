@@ -6,7 +6,7 @@ import { GiMorgueFeet } from "react-icons/gi";
 
 
 
-const NavMedScreen = () => {
+const Temp = () => {
 
     
     const [allTypes, setAllTypes] = useState([
@@ -62,14 +62,6 @@ const NavMedScreen = () => {
             </div>
         </>
     )
+  
 }
-
-const Temp = () => {
-    return(<>
-    <div>
-    <NavMedScreen />
-    </div>
-    </>)
-}
-
 export default Temp;
