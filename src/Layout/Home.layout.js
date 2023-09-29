@@ -4,7 +4,7 @@ import { useDispatch } from "react-redux";
 //Components
 import Navbar from "../Components/Navbar";
 import FoodTab from "../Components/FoodTab";
-import Temp from "../Components/Temp";
+import MedFoodTab from "../Components/FoodTab/Temp";
 
 //redux actions
 
@@ -20,7 +20,7 @@ useEffect (() => {
     return <>
     <div className="container mx-auto ">
         <Navbar />
-        <Temp />
+        <MedFoodTab />
         {props.children}
        
        

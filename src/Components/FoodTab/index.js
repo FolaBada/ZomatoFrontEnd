@@ -61,6 +61,7 @@ const MobileTab = () => {
     );
 }
 
+
 const FoodTab =  () => {
     return (
         <>
@@ -73,6 +74,6 @@ const FoodTab =  () => {
 
 export default FoodTab;
 
-//mater_url: type
+//master_url: type
 
 //delivery, dining, night life -> type
