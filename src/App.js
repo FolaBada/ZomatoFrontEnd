@@ -18,7 +18,7 @@ function App() {
 
 
     <div className="md:hidden">
-    <HomeLayoutHOC path="/"exact component={OrderCarousel} />
+    <HomeLayoutHOC path="/z"exact component={OrderCarousel} />
     <HomeLayoutHOC path="/:type"exact component={Master} />
     <DeliveryCarouselHOC path="/"exact component={DeliveryCarousel}/>
     </div>
